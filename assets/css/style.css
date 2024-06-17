@@ -1,7 +1,3 @@
-/*
- * Author: Lourdes Roashan
- * URL: http://github.com/lourdesr
- */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -87,6 +83,7 @@ hr {
 .navbar {
   text-transform: uppercase;
   margin-bottom: 0px;
+
 }
 
 .navbar-dark {
@@ -109,7 +106,6 @@ hr {
 .navbar-nav > li > a:hover {
   font-weight: 700;
 }
-
 /* Helpers */
 
 .welcome {

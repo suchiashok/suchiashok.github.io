@@ -1,117 +1,127 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-html,body{
-    font-family: 'Roboto', sans-serif;
-}
-a:hover{
-    cursor: pointer;
-    font-size: 1.4rem;
-}
-
-a{
-    color:black;
-}
-.resume {
-    margin: 0 auto;
-    max-width: 75rem;
-}
-header{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: flex-start;
-    font-weight: 200;
-    padding: 2rem;
-    justify-content: space-around;
-    line-height: 0%;
+body {
+    background-color: #f2f2f2;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
 }
 
-.user-contact {
-    flex: 1;
-    flex-direction: column;
-    min-width: 19rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
-    margin-top: 0.9rem;
-    line-height: 0%;
-  }
-
-  .user-info {
-    flex: 2;
-    min-width: 23rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 0%;
-    padding-left: 7.5rem;
-  }
-
-  .user-info .desc {
-      font-size: 0.9rem;
-  }
-
-  .ref-links{
-      display:flex;
-      flex-flow: row nowrap;
-      line-height: 2.5rem;
-      justify-content: center;
-  }
-
-  .ref-links > div {
-      margin: 0.9rem;
-  }
-
-
-@media print {
-    .user-info {
-        flex: 2;
-        min-width: 23rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        line-height: 0%;
-        padding-left: 0px;
-      }
-
-      .uc-tab {
-          display: none;
-      }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #333;
 }
 
-  @media (max-width: 400px) {
-    .user-info {
-        flex: 2;
-        min-width: 23rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        line-height: 0%;
-        padding-left: 0px;
-      }
-    .user-contact {
-        flex: 1;
-        flex-direction: row;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.8rem;
-        line-height: 0%;
-      }
+h1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-    .ref-links{
-            display:flex;
-            flex-flow: row nowrap;
-            line-height: 2rem;
-            justify-content: center;
-            font-size:2.5rem;
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
 
-    }
-    a:hover{
-        color: blue;
-        font-size:3rem;
-    }
+.centered {
+    text-align: center;
+}
 
-  }
+a {
+    color: #1abc9c;
+    word-wrap: break-word;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+.navbar-dark {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-nav > li > a {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.navbar-nav > li > a:hover {
+    font-weight: 700;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
