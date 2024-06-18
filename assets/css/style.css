@@ -203,9 +203,12 @@ p {
 }
 
 .links > div > a > img {
-  height: 64px;
-  width: 64px;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  height: 25px;
+  width: 25px;
 }
+
 /*
 .parallax {
     min-height: 500px; 
