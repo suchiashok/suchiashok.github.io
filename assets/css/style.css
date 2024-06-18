@@ -175,7 +175,6 @@ p {
 #footer {
   background-color: #2f2f2f;
   bottom: 0;
-  position: absolute;
   width: 100%;
 }
 
@@ -207,6 +206,10 @@ p {
   margin-right: 0.5rem;
   height: 25px;
   width: 25px;
+}
+
+.container {
+  max-width: 100%;
 }
 
 /*
